@@ -1,0 +1,113 @@
+body{
+	background: skyblue;
+}
+
+.maindiv{
+	background: lightgreen;
+	display: flex;
+	justify-content: space-around;
+	margin: 5%;
+	text-align: left;
+}
+.leftdiv{
+	background: pink;
+	margin: 3%;
+	height: 40%;
+	width: 28%;
+	border-radius: 4%;
+	text-align: center;
+	box-shadow: 3px 3px 3px 3px
+}
+.rightdiv{
+	background: pink;
+	padding: 2%;
+	margin: 2%;
+	width: 50%;
+	border-radius: 4%;
+	box-shadow: 3px 3px 3px 3px
+}
+img{
+	height: 50%;
+	width: 90%;
+	margin: 3%;
+	border-radius: 4%
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+body{	
+	background: green;
+}
+
+.maindiv{
+	background: skyblue;
+	display: inline-block;
+	justify-content: space-around;
+	padding: 1%;
+	margin: 5%;
+	width: 90%;
+	text-align: left;
+}
+.leftdiv{
+	background: pink;
+	margin: 2%;
+	width: 70%;
+	border-radius: 4%;
+	text-align: center;
+	box-shadow: 2px 2px 2px 2px;
+    word-wrap: break-word;
+}
+.rightdiv{
+	background: pink;
+	padding: 2%;
+	margin: 1%;
+	width: 88%;
+	border-radius: 4%;
+	box-shadow: 3px 3px 3px 3px
+}
+img{
+	height: 50%;
+	width: 90%;
+	margin: 3%;
+	border-radius: 4%
+}
+}
+
+@media screen and (min-width: 481px) and (max-width: 720px){
+body{	
+	background: skyblue;
+}
+
+.maindiv{
+	background: green;
+	display: inline-block;
+	justify-content: space-around;
+	padding: 1%;
+	margin: 5%;
+	width: 90%;
+	text-align: left;
+}
+.leftdiv{
+	background: pink;
+	margin: 2%;
+	width: 90%;
+	border-radius: 4%;
+	text-align: center;
+	box-shadow: 2px 2px 2px 2px;
+    word-wrap: break-word;
+}
+.rightdiv{
+	background: pink;
+	padding: 2%;
+	margin: 1%;
+	width: 85%;
+	border-radius: 4%;
+	box-shadow: 3px 3px 3px 3px
+}
+img{
+	height: 50%;
+	width: 90%;
+	margin: 3%;
+	border-radius: 4%
+}
+}

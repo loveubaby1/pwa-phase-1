@@ -1,0 +1,46 @@
+{
+	"profile":{
+		"img":"pop.jpg",
+		"name":"RAJU",
+		"roll":"16A31A0543",
+		"place":"kakinada",
+		"des":"student"
+	},
+	"career":{
+		"info":"I am RAJU"
+	},
+	"education":[
+	{
+		"sno":"1",
+		"degree":"btech",
+		"institution":"pragati",
+		"per":"8.0",
+		"yop":"2020"
+	},
+	{
+		"sno":"2",
+		"degree":"intermediate",
+		"institution":"narayna",
+		"per":"93",
+		"yop":"2016"
+	},
+	{
+		"sno":"3",
+		"degree":"SSC",
+		"institution":"Bhashyam",
+		"per":"88",
+		"yop":"2014"
+	}
+],
+	"languages":[
+{
+	"lang":"english"
+},
+{
+	"lang":"telugu"
+},
+{
+	"lang":"hindhi"
+}
+]
+}
